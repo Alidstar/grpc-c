@@ -18,7 +18,7 @@ cd ../../
 
 echo "Installing Protobuf"
 cd third_party/protobuf
-./autogen.sh && ./configure --prefix=${pfx} && make && sudo make prefix=${pfix} install
+./autogen.sh && ./configure --prefix=${pfix} && make && sudo make prefix=${pfix} install
 sudo ldconfig
 cd ../../
 
